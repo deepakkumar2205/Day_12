@@ -41,20 +41,23 @@
                                             <label for="email" class="star"><b>Email</b></label>
                                             <input type="email" name="email" class="form-control" >
                                         </div>
-                                        <!-- your experience -->
-                                        <label for="experience" class="sm-6 star"><b>Your Experience</b></label>
-                                        <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        </div>
 
+                                        <!-- your experience -->
+                                         <label for="experience" class="sm-6 star"><b>Your Experience</b></label>
+                                         <!-- star -->
+                                        <div class="container">
+                                                 <div class="rating-wrapper">
+                                                     <input type="radio" name="rating" id="star-1"><label for="star-1"></label>
+                                                     <input type="radio" name="rating" id="star-2"><label for="star-2"></label>
+                                                     <input type="radio" name="rating" id="star-3"><label for="star-3"></label>
+                                                     <input type="radio" name="rating" id="star-4"><label for="star-4"></label>
+                                                     <input type="radio" name="rating" id="star-5"><label for="star-5"></label>
+                                                 </div>
+                                        </div>
+                                          
                                         <small class="form-text text-muted">Overall, how would you rate you experience with us?</small>
 
                                         <!-- satisfying table -->
-
                                         <label for="satisfyrating" class="sm-6 star"><b>How satisfied are you with</b></label>
                                         <table class="table table-striped">
                                             <thead>
@@ -94,6 +97,7 @@
                                                 </tr>
                                             </tbody>
                                         </table>
+                                        
                                         <!-- likely table -->
                                         <label for="liked" class="sm-6 star"><b>How likely are you to</b></label>
                                         <table class="table table-striped">
